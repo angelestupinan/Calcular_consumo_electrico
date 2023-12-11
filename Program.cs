@@ -18,7 +18,6 @@ namespace ConsoleApp1
             Consumo cons = new Consumo(la,lac);
             tot = cons.GetConsumo();
             Console.WriteLine(tot);
-            Console.ReadLine();
         }
     }
     internal class Consumo
